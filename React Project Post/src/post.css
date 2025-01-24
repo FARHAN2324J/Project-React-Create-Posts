@@ -1,0 +1,138 @@
+.container-post {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+
+button {
+    padding: 10px 20px;
+    background-color: #2c2c2c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #797979;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    margin: 10px;
+}
+
+
+.post {
+    background-color: #777777;
+    border-radius: 15px;
+}
+
+
+.post img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%;
+}
+
+/*.posts-container .container-post {
+    border: 1px solid #797979;
+    border-radius: 10px;
+    width: 60%;
+}*/
+
+.posts-container .container-post  img {
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.container-create {
+    background-color: #1b1b1b;
+    border-radius: 15px;
+}
+
+.img-create {
+    width: 100%;
+}
+
+.img-create img {
+    width: 100%;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+
+
+.input-file {
+    visibility: hidden;
+}
+
+.file-upload-label {
+    padding: 10px 20px;
+    background-color: #2c2c2c;
+    color: #FFF;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.file-upload-label:hover {
+    background-color: #797979;
+}
+
+
+.container-label-input-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.container-label-input-button .container-label-input, .container-button {
+    padding: 15px;
+}
+
+
+.container-content {
+    background-color: #1b1b1b;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.container-content input {
+    width: 25%;
+    background-color: transparent;
+    border: none;
+    color: #797979;
+    font-size: 1em;
+    outline: none;
+}
+
+.container-content textarea {
+    width: 50%;
+    background-color: transparent;
+    color: #797979;
+    font-size: 1.1em;
+    outline: none;
+}
+
+::placeholder {
+    color: #797979;
+    font-size: 1.1em;
+    font-weight: 500;
+}
